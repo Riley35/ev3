@@ -1,0 +1,70 @@
+diff -git a/example.11sp3 b/example.11sp3
+
+index 8462b79.0516968 100755
+
+
+- a/example.11sp3
+
+
++++ b/example.11sps
+
+
+00 -1,25 +1,26 CC
+
+
+when program starts
+
+
+
+set 1 motor rotation to 17.5 cm moved
+
+set yaw angle to 0
+
+
+-E set speed to 20 %
+
+
+
+-E run clockwise for 1 seconds
+
++E set speed to 25 %
+
+
+
++E run clockwise for 1.2 seconds
+
+
+play beep 60 for 0.2 seconds
+
+set movement motors to CD
+
+
+start moving 0
+
+
+
+-wait until B reflection <24 %7
+
++wait until B reflection <
+30
+
+stop moving
+
+
+-set movement speed to 40 %
+
+
+
+move forward for 0.25 rotations
+
+*set movement speed
+¢ 50 %
+
+
++move forward for 0.20 rotations
+
+start moving -100
+
+
+
+-wait until (yaw angle < -39)
