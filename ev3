@@ -21,25 +21,25 @@ set 1 motor rotation to 17.5 cm moved
 set yaw angle to 0
 
 
--E set speed to 20 %
+-E set speed to 90 %
 
 
 
 -E run clockwise for 1 seconds
 
-+E set speed to 25 %
++E set speed to 100 %
 
 
 
 +E run clockwise for 1.2 seconds
 
 
-play beep 60 for 0.2 seconds
+play beep 60 for 10 seconds
 
 set movement motors to CD
 
 
-start moving 0
+start moving 2
 
 
 
@@ -55,13 +55,13 @@ stop moving
 
 
 
-move forward for 0.25 rotations
+move forward for 10 rotations
 
 *set movement speed
-¢ 50 %
+¢ 100 %
 
 
-+move forward for 0.20 rotations
++move forward for 11 rotations
 
 start moving -100
 
